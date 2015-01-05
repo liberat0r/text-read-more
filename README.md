@@ -1,7 +1,7 @@
 Text Read More
 ==============
 
-Animating read more/close for text boxes.
+JQuery plugin for animating read more/close for text boxes.
 
 __Classes__
 - .js-text-read defines the text content (needs to have overflow hidden)
@@ -12,6 +12,7 @@ __Attributes__
 - [data-limit-height] Set the limited height of the box
 
 __Example__
+([jsfiddle](http://jsfiddle.net/liberat0r/zb7zs5om/1/))
 ```
 <article class="text-box">
   <div style="overflow: hidden;" class="text-box__content js-text-read js-text-lessed" data-limit-height="150">
