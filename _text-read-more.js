@@ -17,6 +17,10 @@ if (typeof globals === 'undefined') {
 	var globals = {};
 }
 
+if (typeof globals.$window === 'undefined') {
+	globals.$window = $(window);
+}
+
 (function() {
 	"use strict";
 
@@ -69,10 +73,6 @@ if (typeof globals === 'undefined') {
 		};
 
 		self.start = function() {
-
-			if (typeof globals.$window === 'undefined') {
-				globals.$window = $(window);
-			}
 
 			self.recalculate();
 
