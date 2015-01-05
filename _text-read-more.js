@@ -11,6 +11,12 @@
  * set the maxParentsTraverse integer to the number of parents you want
  * to traverse in order to find a text or a button to be lessed
  */
+
+
+if (typeof globals === 'undefined') {
+	var globals = {};
+}
+
 (function() {
 	"use strict";
 
